@@ -1,17 +1,3 @@
-/********************************************************************************************
- * SYN Flood, Test on Red Hat Enterprise Linux AS release 3 (Taroon Update 5), gcc 3.23
- * gcc -o syn_test -O3 syn_test.c
- * change log:
- * 	2006-12-01, code by yunshu(wustyunshu@hotmail.com), thx luoluo for fixing a bug.
- * 	2006-12-05, yunshu fix a bug, version 1.0
- * 	2006-12-26, thx bocai for reporting a bug, version 1.1
- * 	2008-04-26 luoluo add type options to support syn_ack and fin_ack flood v1.2
- *   2010-11-10 yunshu fix a little bug
- *   2010-11-19 yunshu modify the sleep funtion, version 1.3.
- *   2011-06-26 yunshu delete attack code, make it to be a testing tool.
- *
- *   it used to test loadblance, you have to change some code for attacking.
- *********************************************************************************************/
 #include <stdio.h>
 #include <netinet/in.h>
 #include <netdb.h>
